@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    display: inline;
+
+}
+
+.premier_lien {
+    background-color: blue;
+    color: whitesmoke;
+}
+
+a {
+    display: block;
+}
+
+p.parag_inline {
+    display: inline;
+}
+

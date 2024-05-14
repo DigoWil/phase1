@@ -1,0 +1,28 @@
+header {
+    background-color: #900c3f;
+    height: 100px;
+    color: white;
+}
+
+nav { 
+    height: 60px;
+    background-color: #daf7a6;
+    color: red;
+}
+
+* {
+    text-align: right;
+}
+
+section:first-child {
+    background-color: navy;
+    height: 550px;
+}
+
+body {
+    background-color: #f5deb3;
+}
+
+section:nth-child(3) {
+    background-color: yellow;
+}
