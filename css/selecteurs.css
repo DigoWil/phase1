@@ -1,0 +1,39 @@
+p:nth-child(even) {
+    color: aquamarine;
+}
+
+h1 {
+    background-color: darkslategray;
+    color: white;
+}
+
+p.orange {
+    color: orange;
+}
+
+p:not(.orange):nth-child(odd) {
+    color: orchid;
+}
+
+.lime {
+    color: #0f0;
+}
+
+.zone1 {
+    color: red;
+}
+
+.zone2 {
+    color: blue;
+}
+
+
+#zone3 ::before {
+    content:rajouté avant;
+    background-color: cyan;
+}
+
+#zone3::after{
+    content: rajouté après;
+    background-color: wheat;
+}
