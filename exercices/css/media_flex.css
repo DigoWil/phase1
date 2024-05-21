@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#content {
+    width: 1200px;
+    background-color: orange;
+    margin: auto;
+
+}
+
+.equipe {
+    width: 200px;
+    height: 300px;
+    border: 1px black solid;
+    margin: 5px
+}
+
+main > section:first-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equipe:nth-child(even) {
+   background-color: pink;
+}
+
+.equipe:nth-child(odd) {
+    background-color: aqua;
+}
+
+@media screen and (max-width : 1200px) {
+    #content {
+         width: 50%;
+    }
+    
+}
+
+@media screen and (max-width : 780px) {
+    #content {
+        background-color: greenyellow;
+    }
+}

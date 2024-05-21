@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+main > section {
+    display: flex;
+    border: 1px orange solid;
+    height: 150px;
+    margin: 5px;
+}
+
+main > section:first-child {
+    
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.rouge {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.vert {
+    background-color: green;
+    width: 300px;
+    height: 100px;
+}
+
+.orange {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}
+
+
+#partie2 {
+    
+    justify-content: center;
+   
+}
+
+#partie3 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
