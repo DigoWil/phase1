@@ -5,7 +5,7 @@
 }
 
 #content {
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +54,19 @@
     border: 0px solid white;
 }
 
-@media screen (max-width:1199.98) {
+@media  (max-width:1099.98px) {
+    #content {
+        width: 80%;
+    }
+    #content > div {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media  (max-width:960px) {
+    #content > div {
+        
+    }
     
 }
